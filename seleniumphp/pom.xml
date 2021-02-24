@@ -5,6 +5,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>SeleniumTestProject</name>
   
+  
+
    <dependencies>
   <dependency>
     <groupId>io.github.bonigarcia</groupId>
@@ -38,7 +40,7 @@
     <!-- Chrome  -->
   <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-Chrome-driver</artifactId>
+        <artifactId>selenium-chrome-driver</artifactId>
         <version>3.141.59</version>
     </dependency>
     
