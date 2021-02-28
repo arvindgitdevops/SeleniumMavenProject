@@ -36,7 +36,7 @@ import org.slf4j.LoggerFactory;
 		  DesiredCapabilities cap = new DesiredCapabilities();
 		  cap.setCapability("browserName", "chrome"); 
 		  try { 
-			  driver = new RemoteWebDriver(new URL("http://3.18.107.244:4444/wd/hub"), cap); 
+			  driver = new RemoteWebDriver(new URL("http://3.21.127.27:4444/wd/hub"), cap); 
 			  } 
 		  		catch (MalformedURLException e) {
 					e.printStackTrace(); 
@@ -51,7 +51,7 @@ import org.slf4j.LoggerFactory;
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setCapability("browserName", "firefox");
 			try {
-				driver = new RemoteWebDriver(new URL("http://3.18.107.244:4444/wd/hub"), cap);
+				driver = new RemoteWebDriver(new URL("http://3.21.127.27:4444/wd/hub"), cap);
 			} 
 				catch (MalformedURLException e) {
 					e.printStackTrace();
@@ -86,7 +86,7 @@ import org.slf4j.LoggerFactory;
 //							e.printStackTrace();
 		
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		String baseUrl = "http://3.18.107.244:8096";//UAT Server
+		String baseUrl = "http://3.21.127.27:8096";//UAT Server
 		//String baseUrl = "http://3.137.205.43:8012"; //Master Server
 		
 		//String baseUrl = "https://www.google.com//";
